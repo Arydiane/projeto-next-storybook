@@ -1,0 +1,50 @@
+import { Meta, Canvas, Story, ArgsTable } from "@storybook/blocks";
+import Text from "./Text";
+
+<Meta title="Components/Text" component={Text} />
+
+# Text
+
+O componente de texto recebe além do texto o tipo de tag desejado que pode ser *h1, h2, h3, h4 ou um p*.
+
+<ArgsTable of={Text} />
+
+## Text example H1
+
+<Canvas>
+  <Story name="Text Example h1" args={{ children: "Exemplo de texto h1" }}>
+    {(args) => <Text {...args} />}
+  </Story>
+</Canvas>
+
+## Text example H2
+
+<Canvas>
+  <Story name="Text Example h2" args={{tag: "h2", children: "Exemplo de texto h2" }}>
+    {(args) => <Text {...args} />}
+  </Story>
+</Canvas>
+
+## Text example H3
+
+<Canvas>
+  <Story name="Text Example h3" args={{tag: "h3", children: "Exemplo de texto h3" }}>
+    {(args) => <Text {...args} />}
+  </Story>
+</Canvas>
+
+## Text example H4
+
+<Canvas>
+  <Story name="Text Example h4" args={{tag: "h4", children: "Exemplo de texto h4" }}>
+    {(args) => <Text {...args} />}
+  </Story>
+</Canvas>
+
+## Text example P
+
+<Canvas>
+  <Story name="Text Example p" args={{tag: "p", children: "Exemplo de texto p" }}>
+    {(args) => <Text {...args} />}
+  </Story>
+</Canvas>
