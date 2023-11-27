@@ -22,13 +22,18 @@
     "@storybook/addon-interactions": "7.5.3",
     "@storybook/addon-links": "7.5.3",
     "@storybook/addon-onboarding": "1.0.8",
+    "@storybook/addons": "^7.5.3",
     "@storybook/blocks": "7.5.3",
     "@storybook/nextjs": "7.5.3",
     "@storybook/react": "7.5.3",
     "@storybook/testing-library": "0.2.2",
+    "@storybook/theming": "^7.5.3",
     "@types/node": "20.9.1",
     "@types/react": "18.2.37",
     "storybook": "7.5.3",
     "typescript": "5.2.2"
+  }, 
+  "resolutions": {
+    "jackspeak": "2.1.1"
   }
 }
