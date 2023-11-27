@@ -1,5 +1,4 @@
 import React from 'react';
-import { ColorPalette, ColorItem } from '@storybook/addon-docs';
 import theme from '../theme';
 
 export function ThemeColorsStory() {
