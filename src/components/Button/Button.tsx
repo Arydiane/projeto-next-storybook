@@ -20,8 +20,10 @@ const StyledButton = styled.button<ButtonProps>`
   }}
 `;
 interface ButtonProps {
+  /** Essa prop é baseada nas opções de cor que temos no nosso tema.  */
   variant?: 'primary' | 'accent', 
   disabled?: boolean;
+  /** Esse onclick tem itegraçaão com evento...  */
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
   children: React.ReactNode;
 }
